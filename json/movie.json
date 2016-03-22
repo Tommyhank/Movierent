@@ -1,0 +1,99 @@
+﻿[
+  {
+    "moviename": "Ant Man",
+    "star": 4,
+    "logo": "img/antman_logo.jpg",
+    "img": "img/antman.jpg"
+  },
+  {
+    "moviename": "Avengers",
+    "star": 5,
+    "logo": "img/avengers_logo.jpg",
+    "img": "img/avengers.jpg"
+  },
+  {
+    "moviename": "Batman VS Superman",
+    "star": 1,
+    "logo": "img/batvssuper_logo.jpg",
+    "img": "img/batvssuper.jpg"
+  },
+  {
+    "moviename": "Fantacy Four",
+    "star": 3,
+    "logo": "img/fantasticfour_logo.jpg",
+    "img": "img/fantasticfour.jpg"
+  },
+  {
+    "moviename": "Fast Furious 7",
+    "star": 3,
+    "logo": "img/FastFurious_logo.jpg",
+    "img": "img/FastFurious.jpg"
+  },
+  {
+    "moviename": "Harry Potter and the Prisoner of Azkaban",
+    "star": 4,
+    "logo": "img/harry_potter_and_the_prisoner_of_azkaban_logo.jpg",
+    "img": "img/harry_potter_and_the_prisoner_of_azkaban.jpg"
+  },
+  {
+    "moviename": "Interstellar",
+    "star": 5,
+    "logo": "img/interstellar_logo.jpg",
+    "img": "img/interstellar.jpg"
+  },
+  {
+    "moviename": "Iron Man",
+    "star": 5,
+    "logo": "img/ironman_logo.jpg",
+    "img": "img/ironman.jpg"
+  },
+  {
+    "moviename": "The Martian",
+    "star": 5,
+    "logo": "img/martian_logo.jpg",
+    "img": "img/martian.jpg"
+  },
+  {
+    "moviename": "The Revenant",
+    "star": 4,
+    "logo": "img/revenant_logo.jpg",
+    "img": "img/revenant.jpg"
+  },
+  {
+    "moviename": "The Amazing Spider-Man",
+    "star": 3,
+    "logo": "img/spiderman_logo.jpg",
+    "img": "img/spiderman.jpg"
+  },
+  {
+    "moviename": "Star Wars",
+    "star": 5,
+    "logo": "img/starwars_logo.jpg",
+    "img": "img/starwars.jpg"
+  },
+  {
+    "moviename": "Terminator",
+    "star": 2,
+    "logo": "img/TerminatorGenisys_logo.jpg",
+    "img": "img/TerminatorGenisys.jpg"
+  },
+  {
+    "moviename": "Thor",
+    "star": 3,
+    "logo": "img/thor_logo.jpg",
+    "img": "img/thor.jpg"
+  },
+  {
+    "moviename": "Transformers:Age Of Extinction",
+    "star": 3,
+    "logo": "img/Transformers-Age-Of-Extinction_logo.jpg",
+    "img": "img/Transformers-Age-Of-Extinction.jpg"
+  },
+  {
+    "moviename": "Zootopia",
+    "star": 4,
+    "logo": "img/zootopia_logo.jpg",
+    "img": "img/zootopia.jpg"
+  }
+
+]

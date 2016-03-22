@@ -1,0 +1,21 @@
+﻿
+
+
+        <fieldset class="fsStyle">
+            <legend>Sign In</legend>
+            <form>
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input type="text" class="form-control" id="username" ng-model="loginusername" placeholder="User Name" />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" id="password" ng-model="loginpassword" placeholder="Password">
+                </div>
+                <button type="button" class="btn btn-default" ng-click="login()">Submit</button>&nbsp;&nbsp;
+                <a ui-sref="register">Create New Account</a>
+                <p>&nbsp;</p>
+                <label class="error" ng-if="invaliduser">Invalid user name or password</label>
+            </form>
+        </fieldset>
+<link href="Style/loginPage.css" rel="stylesheet" />

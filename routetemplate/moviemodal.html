@@ -1,0 +1,34 @@
+<div class="modal-header">
+    <h3 class="modal-title">{{selectedMovie.moviename}}</h3>
+</div>
+<div class="modal-body">
+    <div class="container-fluid">
+<div class="col-lg-6 col-md-6 col-sm-6">
+    <img ng-src="{{selectedMovie.logo}}">
+</div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <h3>Description</h3>
+        <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+        <h4>Rating:&nbsp&nbsp<span ng-repeat="star in widgetFactory.getstar(selectedMovie.star)" class="glyphicon glyphicon-star" aria-hidden="true"></span></h4>
+    </div>
+    <!--<ul>
+        <li ng-repeat="item in items">
+            <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
+        </li>
+    </ul>
+    Selected: <b>{{ selected.item }}</b>-->
+
+    </div>
+
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-if="loggedin&&!alreadyordered" type="button" ng-click="order()">Order</button>
+    <button class="btn btn-primary" type="button" ng-if="loggedin&&alreadyordered" ng-click="returnMovie()">Return</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Back</button>
+</div>
+
+<link href="Style/loginPage.css" rel="stylesheet" />

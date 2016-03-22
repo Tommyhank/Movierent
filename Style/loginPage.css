@@ -1,0 +1,56 @@
+﻿.modal-body p {
+    word-wrap: break-word;
+}
+.glyphicon-star{
+    color: #ec971f;
+}
+a.thumbnail {
+    min-height: 440px;
+    overflow: hidden;
+}
+
+label {
+    font-weight:normal;
+}
+
+legend {
+    text-decoration:none;
+     border-bottom:none;
+     width:auto;
+}
+.thumbnail p{
+    text-align: center;
+}
+.error{
+    color: red;
+}
+
+fieldset.fsStyle {
+font-family: Verdana, Arial, sans-serif;
+font-size: small;
+font-weight: normal;
+border: 1px solid #d1c8c8;
+padding: 15px;
+margin: 5px;
+}
+
+
+
+@media screen and (max-width:767px) {
+    #registernewaccount {
+        float:right;
+    }
+}
+@media screen and (min-width:768px) {
+    input[type=text] {
+        width: 75%;
+    }
+
+   input[type=password] {
+        width: 75%;
+    }
+    #registernewaccount {
+        padding-right:25%;
+        float:right;
+    }
+}

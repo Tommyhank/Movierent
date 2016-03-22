@@ -1,0 +1,32 @@
+﻿<fieldset class="fsStyle">
+            <legend>Create New Account</legend>
+            <form>
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input type="text" class="form-control" ng-model="regusername" id="regusername" placeholder="User Name" />
+                    <label class="error" ng-if="usernameempty">Please enter the user name</label>
+                </div>
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" class="form-control"  ng-model="regfirstname" id="regfirstname" placeholder="First Name" />
+                    <label class="error" ng-if="firstnameempty">Please enter the first name</label>
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" ng-model="reglastname" id="reglastname" placeholder="Last Name" />
+                    <label class="error" ng-if="lastnameempty">Please enter the last name</label>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" ng-model="regpassword" id="regpassword" placeholder="Password">
+                    <label class="error" ng-if="passwordempty">Please enter the password</label>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" class="form-control" ng-model="regconfirmpassword" id="regconfirmpassword" placeholder="Confirm Password">
+                    <label class="error" ng-if="passwordnotmatch">Password doesn't match</label>
+                </div>
+                <button id="register" type="button" ng-click="regvalidate()" class="btn btn-default">Register</button>
+            </form>
+        </fieldset>
+<link href="Style/loginPage.css" rel="stylesheet" />
